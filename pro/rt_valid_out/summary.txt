@@ -1,0 +1,14 @@
+RT proxy vs Repli-seq validation
+================================
+Genes matched to Repli-seq: 78,691
+Samples evaluated: 184
+
+Global Spearman ρ across samples:
+  mean: -0.049
+  min : -0.097
+  max : 0.025
+
+Outputs:
+  - /fs/scratch/PAS2942/Alejandro/networks/pro/rt_valid_out/global_correlations.csv (sample, spearman_rho)
+  - /fs/scratch/PAS2942/Alejandro/networks/pro/rt_valid_out/per_chromosome_correlations.csv (chr × samples)
+  - /fs/scratch/PAS2942/Alejandro/networks/pro/rt_valid_out/summary.txt
